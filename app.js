@@ -2,7 +2,7 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 
-const jsonFilePath = '/YOUR/OUTPUT/PATH/output.json'; // Replace with the path to your JSON file
+const jsonFilePath = '/Users/shay/5h4y/smarta/output.json'; // Replace with the path to your JSON file
 
 // Function to read JSON file
 function readJsonFile() {
