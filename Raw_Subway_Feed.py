@@ -161,7 +161,7 @@ while True:
     import pandas as pd
 
     # Load the stations.csv file and create a mapping from stop_id to station name
-    stations_df = pd.read_csv('/YOUR/FILE/PATH//stations.csv')
+    stations_df = pd.read_csv('/Users/shay/5h4y/smarta/stations.csv')
     stop_id_to_name_csv = {row['stop_id']: row['name'] for _, row in stations_df.iterrows()}
 
     # Update station_1_n_time_diff with station names
@@ -666,7 +666,7 @@ while True:
     #json_data = json.dumps(combined_dict, indent=4)
 
     # Path to save the JSON file
-    json_file_path = '/YOUR/FILE/PATH//output1.json'  # Update with your path
+    json_file_path = '/Users/shay/5h4y/smarta/output1.json'  # Update with your path
 
     # Writing the JSON data to a file
     with open(json_file_path, 'w') as json_file:
@@ -730,14 +730,14 @@ while True:
     #print(json_data_servstatus)
 
     # Path to save the JSON file
-    json_file_path1 = '/YOUR/FILE/PATH//status.json'  # Update with your path
+    json_file_path1 = '/Users/shay/5h4y/smarta/status.json'  # Update with your path
 
     # Writing the JSON data to a file
     with open(json_file_path1, 'w') as json_file:
         json_file.write(json_data_servstatus)       
 
     # Load and parse the JSON file again with the correct approach
-    with open('/YOUR/FILE/PATH//status.json', 'r') as file:
+    with open('/Users/shay/5h4y/smarta/status.json', 'r') as file:
         data = json.load(file)['entity']
 
 
@@ -759,7 +759,7 @@ while True:
     service_status_dict
 
     # Load the newly uploaded JSON file
-    new_file_path = '/YOUR/FILE/PATH//output1.json'
+    new_file_path = '/Users/shay/5h4y/smarta/output1.json'
 
     # Read the file
     with open(new_file_path, 'r') as file:
@@ -774,7 +774,7 @@ while True:
             item['service_status'] = "Unknown"
 
 
-    output_path = '/YOUR/FILE/PATH//output.json'
+    output_path = '/Users/shay/5h4y/smarta/output.json'
     # Save the updated data back to the file
     with open(output_path, 'w') as file:
         json.dump(new_data, file, indent=4)   
