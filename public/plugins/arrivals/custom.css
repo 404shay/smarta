@@ -4,14 +4,14 @@
   margin-right: 5px;
   width: 115px;
   height: 40px;
-  background: url('Route_bullets.png') no-repeat;
+  background: url('Gold.png') no-repeat;
   background-position: 0px 0px;
 }
 .splitflap .image span {
   width: 115px;
   height: 40px;
   display: block;
-  background: url('Route_bullets.png') no-repeat;
+  background: url('Gold.png') no-repeat;
   background-position: 0px -38.3px; /* start with a blank */
 }
 
