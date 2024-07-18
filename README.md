@@ -33,6 +33,7 @@ MARTA is significantly less complex than the NYC subway; it has 4 lines (Red, Go
 - [MARTA Rail Line Schedules](https://www.itsmarta.com/railline-schedules.aspx)
 - [MARTA Rail API Key Registration](https://www.itsmarta.com/developer-reg-rtt.aspx)
 - [MARTA's Python library for accessing the API](https://github.com/itsmarta/marta-python)
+- [TransitWiki's Publicly-accessible public transportation data](https://transitwiki.org/TransitWiki/index.php/Publicly-accessible_public_transportation_data)
 
 
 ### Sample Data
